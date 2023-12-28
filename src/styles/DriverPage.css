@@ -1,0 +1,68 @@
+.driver-container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .page-title {
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+  }
+  
+  .order {
+    border: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .order:hover {
+    transform: scale(1.01);
+  }
+  
+  .order p {
+    margin: 8px 0;
+    color: #333333;
+  }
+  
+  /* Add style for Order ID */
+  .order p:first-child {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #007bff;
+  }
+  
+
+  /* Add space between paragraphs */
+  .order p:not(:first-child) {
+    margin-top: 10px;
+  }
+  
+  
+  .loading,
+  .error,
+  .no-orders {
+    text-align: center;
+    margin-top: 20px;
+    color: #868e96;
+  }
+  
+  .loading {
+    color: #007bff;
+  }
+  
+  .error {
+    color: #dc3545;
+  }
+  
+  .no-orders {
+    color: #6c757d;
+  }
+  

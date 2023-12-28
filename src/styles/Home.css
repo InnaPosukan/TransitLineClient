@@ -1,0 +1,136 @@
+/* Home.css */
+
+.background-image-container {
+  background-size:cover; 
+  background-position: center;
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.centered-content {
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.order-link {
+  margin-top: 20px;
+  padding: 10px 90px;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.order-link:hover {
+  background-color: rgba(255, 255, 255, 1); 
+}
+.text-add{
+  color: black;
+  margin-top: 30px;
+}
+.overlay-text{
+  font-size: 40px;
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 40px
+}
+.order-text, .type-cargo-label{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.description-text, .type-cargo-desc{
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  text-transform: none;
+}
+.order-container {
+  padding: 20px; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.inner-container {
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  padding: 15px;
+  border-radius: 10px;
+  flex: 1; 
+  margin-right: 20px; 
+  text-align: center;
+  height: 140px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.inner-container:hover {
+  transform: scale(1.07);
+}
+.blue-icon {
+  color: #84d4e2; /* You can change 'blue' to the desired color */
+}
+
+.inner-container:last-child {
+  margin-right: 0;
+}
+.text-with-icon {
+  font-weight: bolder;
+  color: black;
+  font-size: 18px;
+  text-transform:none; 
+  margin-top: 20px; 
+}
+.cargo-container {
+  display: flex;
+  align-items: center;
+  width:90%;
+}
+.cargo-image {
+  max-width: 450px;
+  max-height: 450px; 
+  width: auto;
+  height: auto;
+  margin-left: 40px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.cargo-image:hover {
+  transform: scale(1.01); 
+}
+.type-cargo-title{
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.type-cargo-descript{
+  font-size: 20px;
+  text-transform: none;
+}
+.all-cargo{
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  height: auto;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 50px;
+  flex: 1; 
+
+}

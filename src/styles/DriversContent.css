@@ -1,0 +1,122 @@
+/* YourStyleFile.css */
+
+.user-management-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .add-new-staff-button {
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-new-staff-button:hover {
+    background-color: #45a049;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-new-staff-button:active {
+    background-color: #367c39;
+  }
+  
+  .table-container {
+    width: 99%;
+    max-height: 750px;
+    overflow-y: auto;
+  }
+  
+  .user-table-scroll {
+    overflow-x: auto;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+  }
+  
+  .user-table th {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #fff;
+    border-right: 1px solid #ddd;
+    transition: background-color 0.3s;
+  }
+  
+  .user-table th,
+  .user-table td {
+    border: none;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .user-table tr:hover {
+    background-color: #f0efef;
+  }
+  
+  .user-table th:last-child,
+  .user-table td:last-child {
+    border-right: none;
+  }
+  
+  .user-management-header {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+  }
+  
+  .addition-management-title {
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: grey;
+  }
+  
+  .delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  .edit-button {
+    background-color: #7eddfa;
+    color: #000;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-button:hover {
+    background-color: #76cae4;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+    margin-left: 520px;
+  }
+  
+  .search-label {
+    margin-right: 8px;
+  }
+  
+  .filter-and-button-container {
+    display: flex;
+    gap: 10px;
+  }
+

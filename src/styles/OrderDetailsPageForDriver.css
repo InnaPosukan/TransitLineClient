@@ -1,0 +1,71 @@
+/* OrderDetailsPageForDriver.css */
+
+.order-details-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.map-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.details-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.loading,
+.error {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.order-details {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.payments-info p {
+  font-weight: normal;
+}
+
+.payments-and-deliveries {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.action-buttons-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.accept-button,
+.delivered-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  background-color: #84d4e2;
+  margin: 10px;
+}
+
+.accept-button:hover, .delivered-button:hover {
+  background-color: #70b1bd;
+}
+
+.order-details-title{
+  text-align: center;
+  margin: 20px;
+
+}

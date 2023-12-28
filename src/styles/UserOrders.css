@@ -1,0 +1,43 @@
+/* UserOrders.css */
+.user-orders-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.order-details {
+  margin-top: 20px;
+}
+.order-info {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-info p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.user-orders-title{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.pay-now-button{
+  background-color: #64c7e0;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pay-now-button:hover {
+  background-color: #58aec4; 
+}

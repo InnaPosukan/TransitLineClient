@@ -1,0 +1,90 @@
+
+.auth-container {
+    background-color: rgb(230, 240, 247);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 50%;
+    height: auto;
+}
+
+.auth-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.auth-form {
+    display: grid;
+    gap: 10px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-input {
+    padding: 10px;
+    padding-right: 30px; /* Adjust the padding as needed */
+
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-transform: lowercase;
+}
+
+.form-button {
+    background-color: #84d4e2;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #088797;
+}
+
+.form-toggle {
+    margin-top: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    text-decoration: underline;
+}
+
+.form-toggle:hover {
+    color: #999999;
+}
+@media screen and (max-width: 600px) {
+    .auth-container{
+        width: 80%;
+    }
+}
+
+.password-input-container {
+    position: relative;
+  }
+  
+  .eye-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px; 
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  

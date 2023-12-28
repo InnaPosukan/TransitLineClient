@@ -1,0 +1,22 @@
+.add-sensor {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-sensor:hover {
+    background-color: #45a049;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-sensor:active {
+    background-color: #367c39;
+  }
+  .user-management-title{
+    margin-bottom: 20px;
+  }
